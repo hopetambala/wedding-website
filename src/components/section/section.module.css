@@ -1,0 +1,11 @@
+.section {
+  padding-top: var(--spacer-m);
+  padding-bottom: var(--spacer-m);
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacer-xxl);
+  padding-right: var(--spacer-xxl);
+}
