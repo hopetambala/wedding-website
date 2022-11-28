@@ -1,0 +1,6 @@
+.home p {
+  margin-bottom: var(--spacer-m);
+}
+.details p {
+  margin-bottom: 0;
+}

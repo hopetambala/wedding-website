@@ -1,21 +1,21 @@
 .group {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.group>* {
+.group > * {
   flex: 1;
-  padding: var(--spacer-l) 0;
 }
 
-.spacingmedium>* {
+.spacingmedium > * {
   padding: var(--spacer-m) 0;
 }
 
-.spacinglarge>* {
+.spacinglarge > * {
   padding: var(--spacer-l) 0;
 }
 
-.spacingextralarge>* {
+.spacingextralarge > * {
   padding: var(--spacer-xl) 0;
 }
 
@@ -30,10 +30,3 @@
 .center {
   justify-content: center;
 }
-
-/* .content {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: var(--spacer-xxl);
-    padding-right: var(--spacer-xxl);
-} */

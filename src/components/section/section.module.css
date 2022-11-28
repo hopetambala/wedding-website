@@ -1,13 +1,13 @@
 .section {
   padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-m);
-  padding-left: var(--spacer-xxl);
-  padding-right: var(--spacer-xxl);
 }
 
 .content {
-  margin: var(--spacer-m);
-
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacer-xxl);
+  padding-right: var(--spacer-xxl);
 }
 
 .altBG {

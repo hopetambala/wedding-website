@@ -1,10 +1,6 @@
 import React from "react";
-import * as styles from './grid-item.module.css'
+import * as styles from "./grid-item.module.css";
 
-export const GridItem = ({children}) =>{
-    return (
-        <div className={styles.item}>
-            {children}
-        </div>
-    )
-}
+export const GridItem = ({ children }) => {
+  return <div className={styles.item}>{children}</div>;
+};
