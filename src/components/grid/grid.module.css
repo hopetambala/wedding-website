@@ -2,6 +2,23 @@
   display: flex;
 }
 
+.group>* {
+  flex: 1;
+  padding: var(--spacer-l) 0;
+}
+
+.spacingmedium>* {
+  padding: var(--spacer-m) 0;
+}
+
+.spacinglarge>* {
+  padding: var(--spacer-l) 0;
+}
+
+.spacingextralarge>* {
+  padding: var(--spacer-xl) 0;
+}
+
 .left {
   justify-content: flex-start;
 }
