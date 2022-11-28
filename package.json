@@ -1,6 +1,6 @@
 {
-  "name": "Wedding WEbsite",
-  "private": true,
+  "name": "wedding-2ebsite",
+  "private": false,
   "description": "Hope and Carly's Wedding Website",
   "version": "0.1.0",
   "license": "0BSD",

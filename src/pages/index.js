@@ -1,6 +1,8 @@
 import "../css/_main.css";
 import React from "react";
 import { Section } from "../components/section/section";
+import { Grid } from "../components/grid/grid";
+import { SectionDivider } from "../components/section/section-divider/section-divider";
 
 export default function Home() {
   return (
@@ -21,9 +23,8 @@ export default function Home() {
           in nibh ut tempor. Proin id libero eu tellus cursus pellentesque vel
           quis turpis. Suspendisse dolor lectus, cursus sit amet augue vitae,
           pharetra sollicitudin nulla. Vivamus non felis id turpis varius varius
-          a ut libero.{" "}
+          a ut libero.
         </p>
-
         <p>
           Pellentesque at dolor nisi. Aenean nec dignissim mauris. Sed mauris
           ligula, varius finibus hendrerit sed, condimentum in lacus. Nam non
@@ -36,11 +37,9 @@ export default function Home() {
           sagittis fermentum. Suspendisse potenti. Class aptent taciti sociosqu
           ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi
           porta blandit libero non vulputate. Praesent id lacinia ipsum, eget
-          rhoncus dolor.{" "}
+          rhoncus dolor.
         </p>
-
         <p>
-          {" "}
           Quisque vel eros non augue bibendum congue in rutrum augue. Nunc eu
           enim ut tellus feugiat volutpat eu consequat diam. Maecenas viverra
           aliquam lorem, in consectetur nunc ornare semper. Nullam tincidunt
@@ -50,26 +49,49 @@ export default function Home() {
           feugiat sed.
         </p>
       </Section>
-      <Section title="Details">
-        <p>Zzip zip zipz izp</p>
+      <SectionDivider />
+      <Section title="Details" isAltBG>
+        <Grid position="left">
+          <div>
+            <p>Welcome Night!</p>
+          </div>
+          <div>
+            <p>Ceremony</p>
+          </div>
+          <div>
+            <p>Reception</p>
+          </div>
+        </Grid>
       </Section>
+      <SectionDivider isTop />
       <Section title="Getting Here">
         <p>Zzip zip zipz izp</p>
       </Section>
       <Section title="Lodging">
         <p>Zzip zip zipz izp</p>
       </Section>
-      <Section title="Things To Do">
+      <SectionDivider />
+      <Section title="Things To Do" isAltBG>
         <p>Zzip zip zipz izp</p>
       </Section>
+      <SectionDivider isTop />
       <Section title="Love Story">
         <p>Zzip zip zipz izp</p>
       </Section>
-      <Section title="Wedding Story">
+      <Section title="Wedding Party">
+        <p>Zzip zip zipz izp</p>
+      </Section>
+      <Section title="Fun Little Game!">
         <p>Zzip zip zipz izp</p>
       </Section>
       <Section title="Registry">
-        <p>Zzip zip zipz izp</p>
+        <a
+          href="https://withjoy.com/hope-and-carly/registry"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Registry
+        </a>
       </Section>
     </div>
   );

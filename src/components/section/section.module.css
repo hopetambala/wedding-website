@@ -9,3 +9,7 @@
   padding-left: var(--spacer-xxl);
   padding-right: var(--spacer-xxl);
 }
+
+.altBG {
+  background-color: var(--hex-blue);
+}

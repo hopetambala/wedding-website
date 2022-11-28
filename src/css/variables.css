@@ -1,6 +1,6 @@
 :root {
   /* TYPOGRAPHY
-    /* =============================================================== */
+  /* =============================================================== */
 
   --font-family: "Recoleta", helvetica, sans-serif;
   --font-weight-regular: 400;
@@ -19,7 +19,7 @@
   --line-height-small: 16px;
 
   /* SPACING
-    /* =============================================================== */
+  /* =============================================================== */
 
   --spacer-s: 8px;
   --spacer-m: 16px;
@@ -28,7 +28,7 @@
   --spacer-xxl: 128px;
 
   /* BORDER
-    /* =============================================================== */
+  /* =============================================================== */
 
   --border-radius-s: 4px;
   --border-radius-m: 6px;
@@ -38,7 +38,7 @@
   --border-radius-full: 50%;
 
   /* STACKING ORDER
-    /* =============================================================== */
+  /* =============================================================== */
 
   --z-notifications-count: 1;
   --z-focused: 2;
@@ -59,7 +59,7 @@
   --z-tooltip: 101;
 
   /* Colors
-    /* ===============================================================
+  /* ===============================================================
 
     /* Neutral */
   --hex-white: #fff;
@@ -76,7 +76,7 @@
   --hex-black: #000;
 
   /* Blue */
-  --hex-blue-100: #dfecf7;
+  /* --hex-blue-100: #dfecf7;
   --hex-blue-200: #c9e0f5;
   --hex-blue-300: #9ec4f0;
   --hex-blue-400: #5993ea;
@@ -84,7 +84,8 @@
   --hex-blue-600: #0045cc;
   --hex-blue-700: #003bae;
   --hex-blue-800: #003293;
-  --hex-blue-900: #00237a;
+  --hex-blue-900: #00237a; */
+  --hex-blue: #6ac3ff;
 
   /* Green */
   --hex-green-100: #e7f1cb;
@@ -98,7 +99,7 @@
   --hex-green-900: #073922;
 
   /* Yellow */
-  --hex-yellow-100: #faefc5;
+  /* --hex-yellow-100: #faefc5;
   --hex-yellow-200: #fae593;
   --hex-yellow-300: #f7dd68;
   --hex-yellow-400: #f7d24d;
@@ -106,7 +107,9 @@
   --hex-yellow-600: #eeb90b;
   --hex-yellow-700: #da9d04;
   --hex-yellow-800: #976500;
-  --hex-yellow-900: #623e00;
+  --hex-yellow-900: #623e00; */
+  --hex-yellow: #f9f1e6;
+  --hex-yellow-alt: #fef8dc;
 
   /* Orange */
   --hex-orange-100: #f7e9da;
@@ -157,7 +160,7 @@
 
   /* Backgrounds */
   --color-bg-light: var(--hex-white);
-  --color-bg: var(--hex-neutral-100);
+  --color-bg: var(--hex-yellow);
   --color-bg-dark: var(--hex-neutral-200);
 
   /* Text */
