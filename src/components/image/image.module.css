@@ -17,4 +17,5 @@
 .container img {
   height: 100%;
   width: auto;
+  border-radius: var(--border-radius-l);
 }

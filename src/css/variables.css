@@ -28,9 +28,9 @@
   /* BORDER
   /* =============================================================== */
 
-  --border-radius-s: 4px;
-  --border-radius-m: 6px;
-  --border-radius-l: 8px;
+  --border-radius-s: 8px;
+  --border-radius-m: 16px;
+  --border-radius-l: 32px;
 
   /* Circles */
   --border-radius-full: 50%;

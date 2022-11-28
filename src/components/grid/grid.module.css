@@ -7,16 +7,20 @@
   flex: 1;
 }
 
+.spacingsmall > * {
+  margin: var(--spacer-s);
+}
+
 .spacingmedium > * {
-  padding: var(--spacer-m) 0;
+  margin: var(--spacer-m);
 }
 
 .spacinglarge > * {
-  padding: var(--spacer-l) 0;
+  margin: var(--spacer-l);
 }
 
 .spacingextralarge > * {
-  padding: var(--spacer-xl) 0;
+  margin: var(--spacer-xl);
 }
 
 .left {

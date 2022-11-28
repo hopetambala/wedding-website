@@ -9,7 +9,7 @@ import { Image } from "../components/image/image";
 import bonfire from "../assets/icons/bon-fire.png";
 import wedding from "../assets/icons/wedding-couple.png";
 import dancing from "../assets/icons/dancing.png";
-import lovestory from "../assets/photos/love-story.png"
+import lovestory from "../assets/photos/love-story.png";
 
 import * as styles from "./index.module.css";
 
@@ -148,17 +148,16 @@ export default function Home() {
               schedules, reservations, and the cost of ferry tickets can be
               found here.
             </p>
-             <h3>Flying</h3>
+            <h3>Flying</h3>
             <p>
-              There are several regional airlines that fly
-              from the Seattle area to the San Juan Islands. This is the fastest
-              option for travel to the islands and the views are breathtaking!
-              If you fly into SeaTac airport, you will be shuttled to Boeing
-              Field for a land plane flight or Lake Union/Washington for a sea
-              plane flight. Check out Kenmore Air, Friday Harbor Seaplanes, San
-              Juan Airlines (the only option from Paine Field airport in
-              Everett), Point to Point Air, or Westwind Aviation to book your
-              flights.
+              There are several regional airlines that fly from the Seattle area
+              to the San Juan Islands. This is the fastest option for travel to
+              the islands and the views are breathtaking! If you fly into SeaTac
+              airport, you will be shuttled to Boeing Field for a land plane
+              flight or Lake Union/Washington for a sea plane flight. Check out
+              Kenmore Air, Friday Harbor Seaplanes, San Juan Airlines (the only
+              option from Paine Field airport in Everett), Point to Point Air,
+              or Westwind Aviation to book your flights.
             </p>
             <p>
               On-Island Transportation If you fly to the islands or choose to
@@ -174,7 +173,7 @@ export default function Home() {
         </Grid>
       </Section>
 
-      <Section title="Lodging" >
+      <Section title="Lodging">
         <p>
           Here are some options of places to stay nearby. We HIGHLY recommended
           booking as early as possible - the island will be very busy in June
@@ -230,18 +229,21 @@ export default function Home() {
       <SectionDivider isTop />
 
       <Section title="Love Story">
-        <Grid position='center'>
-        <GridItem>        
-          <h3>As told by him...</h3>
-          <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
-          <h3>As told by her...</h3>
-          <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
-        </GridItem>
-        <GridItem>
-          <Image alt="Love" source={lovestory} size="xl" />
-        </GridItem>
+        <Grid spacing={"large"}>
+          <GridItem>
+            <h3>As told by him...</h3>
+            <p>
+              Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            </p>
+            <h3>As told by her...</h3>
+            <p>
+              Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            </p>
+          </GridItem>
+          <GridItem>
+            <Image alt="Love" source={lovestory} size="xl" borderRadius="" />
+          </GridItem>
         </Grid>
-
       </Section>
 
       <Section title="Wedding Party">
