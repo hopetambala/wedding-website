@@ -33,21 +33,7 @@ export default function Home() {
             <p>Don&rsquo;t forget to RSVP!</p>
           </GridItem>
           <GridItem>
-            <iframe
-              title="ourplaylist"
-              allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-              frameborder="0"
-              height="450"
-              width="500"
-              styles={{
-                width: "100%",
-                maxWidth: "660px",
-                overflow: "hidden",
-                background: "transparent",
-              }}
-              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-              src="https://embed.music.apple.com/us/playlist/hip-picks-ii/pl.u-6mo4ayyIZ4r1MJ"
-            ></iframe>
+            <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/hip-picks-ii/pl.u-6mo4ayyIZ4r1MJ"></iframe>
           </GridItem>
         </Grid>
       </Section>
