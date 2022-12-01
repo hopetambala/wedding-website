@@ -17,7 +17,8 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <Section title="landing" isNoTitle className={styles.landing}>
-        <h1>Hope</h1><h1>& Carly</h1>
+        <h1>Hope</h1>
+        <h1>& Carly</h1>
         <h2>RSVP</h2>
       </Section>
       <Section title="Welcome" className={styles.welcome}>
@@ -37,16 +38,13 @@ export default function Home() {
           </GridItem>
           <GridItem>
             <iframe
+              title="our music playlist"
               allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
               frameborder="0"
               height="450"
-              styles={{
-                width: "100%",
-                height: "450px",
-                maxWidth: "660px",
-                overflow: "hidden",
-                background: "transparent",
-              }}
+              width="100%"
+              overflow="hidden"
+              background="transparent"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
               src="https://embed.music.apple.com/us/playlist/future-funk/pl.b218d054b8294ba98c637326cefe7f0a"
             ></iframe>

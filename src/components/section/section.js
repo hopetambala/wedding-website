@@ -10,9 +10,7 @@ export const Section = ({ children, title, isNoTitle, isAltBG, className }) => {
   return (
     <section id={id} className={classNames.join(" ")}>
       <div className={`content ${styles.content}`}>
-        {!isNoTitle &&
-          <h2>{title}</h2>
-        }
+        {!isNoTitle && <h2>{title}</h2>}
         {children}
       </div>
     </section>
