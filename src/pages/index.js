@@ -16,7 +16,10 @@ import * as styles from "./index.module.css";
 export default function Home() {
   return (
     <div className={styles.home}>
-      <h1>Hope and Carly</h1>
+      <Section title="landing" isNoTitle className={styles.landing}>
+        <h1>Hope</h1><h1>& Carly</h1>
+        <h2>RSVP</h2>
+      </Section>
       <Section title="Welcome" className={styles.welcome}>
         <Grid position="right">
           <GridItem>
