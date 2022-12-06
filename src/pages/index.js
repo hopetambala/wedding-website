@@ -55,7 +55,7 @@ export default function Home() {
       <SectionDivider />
 
       <Section title="Details" isAltBG className={styles.details}>
-        <Grid position="center" spacing="large">
+        <Grid position="center">
           <GridItem>
             <Image alt="Bonfire Pic" source={bonfire} size="m" />
             <h3>Friday, August 12, 2023</h3>
@@ -175,14 +175,49 @@ export default function Home() {
 
       <Section title="Lodging">
         <p>
-          Here are some options of places to stay nearby. We HIGHLY recommended
-          booking as early as possible - the island will be very busy in June
-          and accomodations can book up months in advance.
+          Here are some options of places to stay nearby. We recommend booking
+          early - the hotels will be very busy in August and accomodations can
+          book up months in advance.
         </p>
         <p>
-          The first two options (Zippy and Bippy) have room blocks for our
-          wedding, the instructions for booking each are in the description.
+          The first two options (Westin and Avenue of Arts) have room blocks for
+          our wedding and are within walking distance from OCMA, the
+          instructions for booking each are in the description.
         </p>
+        <Grid>
+          <GridItem>
+            <div>
+              <h3>The Westin South Coast Plaza</h3>
+              <p>
+                <em>686 Anton Blvd, Costa Mesa, CA 92626</em>
+              </p>
+              <p>(844) 644-6449</p>
+              <a
+                href="https://www.marriott.com/en-us/hotels/snawi-the-westin-south-coast-plaza-costa-mesa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+            </div>
+          </GridItem>
+          <GridItem>
+            <div>
+              <h3>Avenue of the Arts Costa Mesa</h3>
+              <p>
+                <em>3350 Avenue of the Arts, Costa Mesa, CA 92626</em>
+              </p>
+              <p>(714) 751-5100</p>
+              <a
+                href="https://www.avenueoftheartshotel.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+            </div>
+          </GridItem>
+        </Grid>
       </Section>
 
       <SectionDivider />
@@ -229,7 +264,7 @@ export default function Home() {
       <SectionDivider isTop />
 
       <Section title="Love Story">
-        <Grid spacing={"large"}>
+        <Grid>
           <GridItem>
             <h3>As told by him...</h3>
             <p>
