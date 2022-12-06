@@ -276,7 +276,7 @@ export default function Home() {
             </p>
           </GridItem>
           <GridItem>
-            <Image alt="Love" source={lovestory} size="xl" borderRadius="" />
+            <Image alt="Love" source={lovestory} borderRadius="" />
           </GridItem>
         </Grid>
       </Section>
