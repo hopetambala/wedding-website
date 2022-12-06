@@ -22,7 +22,7 @@ export default function Home() {
         <h2>RSVP</h2>
       </Section>
       <Section title="Welcome" className={styles.welcome}>
-        <Grid position="right">
+        <Grid>
           <GridItem>
             <p>Excited for some beach vibes?</p>
             <p>

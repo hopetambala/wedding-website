@@ -1,6 +1,7 @@
 .group {
   display: flex;
   flex-wrap: wrap;
+  column-gap: var(--spacer-xl);
 }
 
 .group > * {
@@ -34,4 +35,10 @@
 
 .center {
   justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .group {
+    column-gap: 0;
+  }
 }
