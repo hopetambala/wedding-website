@@ -9,10 +9,10 @@
   box-shadow: inset 0 0 0 1000px #0d2d5e19;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  height: 800px;
+  height: 100vh;
 }
 
-.landing h1 {
+.landingText h1 {
   color: var(--hex-yellow);
   font-size: calc(var(--font-size-h1) * 2);
 }
@@ -32,4 +32,27 @@
 }
 .details p {
   margin-bottom: 0;
+}
+
+.gettinghere img {
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    * {
+      text-align: center;
+    }
+
+    img {
+      margin: auto;
+    }
+    
+
+    .landingText h1 {
+      font-size: calc(var(--font-size-h1));
+    }
+
+    .details img {
+      margin: auto;
+    }
 }

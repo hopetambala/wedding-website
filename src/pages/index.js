@@ -17,9 +17,11 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <Section title="landing" isNoTitle className={styles.landing}>
-        <h1>Hope</h1>
-        <h1>& Carly</h1>
-        <h2>RSVP</h2>
+        <div className={styles.landingText}>
+          <h1>Hope</h1>
+          <h1>& Carly</h1>
+          <h2>RSVP</h2>
+        </div>
       </Section>
       <Section title="Welcome" className={styles.welcome}>
         <Grid>
