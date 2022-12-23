@@ -58,7 +58,7 @@ export default function Home() {
 
       <Section title="Details" isAltBG className={styles.details}>
         <Grid position="center">
-          <GridItem>
+          {/* <GridItem>
             <Image alt="Bonfire Pic" source={bonfire} size="m" />
             <h3>Friday, August 12, 2023</h3>
             <strong>Little Beach Hang</strong>
@@ -68,7 +68,7 @@ export default function Home() {
             </p>
             <p>Join us for a beach hang</p>
             <em>Attire: Casual</em>
-          </GridItem>
+          </GridItem> */}
 
           <GridItem>
             <Image alt="Wedding Couple" source={wedding} size="m" />

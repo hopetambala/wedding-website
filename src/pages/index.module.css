@@ -43,16 +43,12 @@
       text-align: center;
     }
 
-    img {
-      margin: auto;
-    }
-    
-
     .landingText h1 {
       font-size: calc(var(--font-size-h1));
+      text-align: left;
     }
 
-    .details img {
+    img {
       margin: auto;
     }
 }
