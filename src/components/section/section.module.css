@@ -14,7 +14,6 @@
   background-color: var(--hex-blue);
 }
 
-
 @media only screen and (max-width: 900px) {
   .content {
     margin-left: auto;

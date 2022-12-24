@@ -102,71 +102,55 @@ export default function Home() {
       <SectionDivider isTop />
 
       <Section title="Getting Here">
+        <p>
+          Ready for some beach vibes? Orange County, California is home to some
+          of California’s most beautiful beaches, and we hope that you will take
+          some time to explore a place that holds great meaning to both of us!
+        </p>
         <Grid>
           <GridItem>
-            <p>
-              If you are traveling to the San Juan Islands from outside the
-              Seattle area, you&rsquo;ll want to fly into the SeaTac (SEA) or
-              Everett (PAE) airports. Paine Field in Everett is a smaller
-              airport that allows you to skip Seattle traffic but has a limited
-              number of incoming flights.
-            </p>
-            <p>
-              Washington State Ferries This is the most affordable way to travel
-              to the islands. Ferries to the San Juan Islands depart from
-              Anacortes, which is about a 2 hour drive north of SeaTac airport.
-              When you fly into the Seattle area, you can rent a car (from
-              either airport) or take a shuttle north to Anacortes (from SeaTac
-              airport only). When you are driving a car onto the ferry, you
-              should arrive at least 45-60 minutes early in order to be fully
-              checked in 30 minutes prior to sailing. If you miss the 30 minute
-              cutoff, you will lose your reservation and be grouped in with the
-              standby cars (aka you may wait for hours to get on/off island).
-              Shuttle options include the Bellair Airporter Shuttle and the
-              Island Airporter.
-            </p>
-            <h3>Driving</h3>
-            <p>
-              If you rent a car, you can drive onto the ferry or park at the
-              Anacortes Ferry Terminal and walk on. If you plan on driving your
-              car onto the ferry, reservations are HIGHLY recommended! You will
-              need to make reservations for both your arrival and departure
-              trips.
-            </p>
-            <p>
-              Ferry reservations are released on the WSF website in three
-              different waves: 30% when the schedule first opens, 30% two months
-              prior to the departure date, and 30% two days prior to the
-              departure date. The remaining 10% are saved for cars that
-              haven&rsquo;t made reservations but these go quickly and
-              it&rsquo;s best not to depend on them.
-            </p>
-            <p>
-              There is no charge when booking a ferry reservation but you will
-              be charged a &ldquo;no show&rdquo; fee of $19 if you book a
-              reservation and then don&rsquo;t use it. You can cancel your
-              reservation up until 5pm the day before your travel date without
-              being charged the no show fee. More information on ferry
-              schedules, reservations, and the cost of ferry tickets can be
-              found here.
-            </p>
             <h3>Flying</h3>
             <p>
-              There are several regional airlines that fly from the Seattle area
-              to the San Juan Islands. This is the fastest option for travel to
-              the islands and the views are breathtaking! If you fly into SeaTac
-              airport, you will be shuttled to Boeing Field for a land plane
-              flight or Lake Union/Washington for a sea plane flight. Check out
-              Kenmore Air, Friday Harbor Seaplanes, San Juan Airlines (the only
-              option from Paine Field airport in Everett), Point to Point Air,
-              or Westwind Aviation to book your flights.
+              If you will be flying to Orange County for our wedding, please
+              consider the following options:
             </p>
             <p>
-              On-Island Transportation If you fly to the islands or choose to
-              park your car at the Anacortes Ferry Terminal, there are several
-              ways to get around the island. Check out the links below for more
-              information (NOTE: there is NOT Uber or Lyft on the island, so you
-              will have to use one of the alternative services instead.):
+              The closest airport to our wedding ceremony and reception is John
+              Wayne International Airport (SNA), which is just 2.5 miles (10
+              minutes) from our reception venue. Although it is a smaller
+              airport, there are regular flights to SNA from many major
+              metropolitan cities, including Chicago, Houston, and New York.
+            </p>
+            <p>
+              Long Beach Airport (LGB) is 20 miles (30 minutes depending on
+              traffic) from our reception venue. Although LGB is a smaller
+              airport, non-stop flights, particularly on Southwest, are
+              available to/from some cities.
+            </p>
+            <p>
+              Los Angeles International Airport (LAX) is 40 miles (45
+              minutes-1.5 hours depending on traffic) from our reception venue.
+              LAX is a large international hub with many affordable flights from
+              all major airlines. Los Angeles is also a fun and exciting city if
+              you would like to extend your travel plans! To get to Orange
+              County from LAX, consider any of the following options: 1) Rent a
+              car 2) take an Uber/Lyft ($60-70 one-way), or 3) take the FlyAway
+              bus from LAX to Union Station and connect to either the Metrolink
+              or Surfliner trains which both make stops in Orange County.
+            </p>
+            <p>
+              San Diego International Airport (SAN) is 86 miles (1.5 hours) from
+              our reception venue. Although this is a bit farther than the other
+              options, if you are interested in exploring San Diego while out on
+              the west coast, this could be a great option!
+            </p>
+            <h3>Getting around while you're here</h3>
+            <p>
+              Please note that there is very limited public transportation in
+              Orange County. Depending on your plans, you may want to consider
+              renting a car. Uber/Lyft is also readily available, which may be a
+              good option for those guests who will only be in town for a short
+              visit.
             </p>
           </GridItem>
           <GridItem>
@@ -182,24 +166,25 @@ export default function Home() {
           book up months in advance.
         </p>
         <p>
-          The first two options (Westin and Avenue of Arts) have room blocks for
-          our wedding and are within walking distance from OCMA, the
-          instructions for booking each are in the description.
+          The first options (Costa Messa Mariott) has a room block for our
+          wedding and the second option (Avenue of Arts) has a 15% discount.
+          Both are within walking distance from OCMA, the instructions for
+          booking each are in the description.
         </p>
         <Grid>
           <GridItem>
             <div>
-              <h3>The Westin South Coast Plaza</h3>
+              <h3>Costa Mesa Marriott</h3>
               <p>
-                <em>686 Anton Blvd, Costa Mesa, CA 92626</em>
+                <em>500 Anton Blvd, Costa Mesa, CA 92626</em>
               </p>
-              <p>(844) 644-6449</p>
+              <p>(714) 957-1100</p>
               <a
                 href="https://www.marriott.com/en-us/hotels/snawi-the-westin-south-coast-plaza-costa-mesa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
                 target="_blank"
                 rel="noreferrer"
               >
-                Website
+                Website ($199 stay per night, $20 parking per night)
               </a>
             </div>
           </GridItem>
@@ -211,11 +196,12 @@ export default function Home() {
               </p>
               <p>(714) 751-5100</p>
               <a
-                href="https://www.avenueoftheartshotel.com/"
+                href="https://marriott.com/reservation/availability.mi?propertyCode=CSMTX&cc=K6Y"
                 target="_blank"
                 rel="noreferrer"
               >
-                Website
+                Website (15% off Standard and Deluxe guest room rates, free
+                parking per night)
               </a>
             </div>
           </GridItem>
@@ -225,42 +211,17 @@ export default function Home() {
       <SectionDivider />
 
       <Section title="Things To Do" isAltBG>
-        <h3>Seattle</h3>
+        <h3>Newport Beach</h3>
         <p>
-          For a true Meg and Katie experience, you would probably hit a brewery
-          or two after walking around a park or going on a hike with Archie. A
-          few of our favorite Seattle breweries are Fremont Brewing, Stoup, and
-          Bale Breaker. We love walks around Green Lake and through the
-          Arboretum. If you’re looking for more classic Seattle experiences,
-          Pike Place Market and the Space Needle are must sees. Grab some
-          oysters and champagne at Taylor Shellfish after exploring the Chihuly
-          Glass Museum and walking around the Seattle Center. Some great hikes
-          in the area are Twin Falls (3 miles), Rattlesnake Ledge (4 miles), and
-          Snow Lake (7 miles).
+          You have to go to the beach while you're here! We're definitely not
+          beach experts of the area, but we enjoy hitting up the Newport Beach.
+          Going to Balboa Island and exploring the shops could be a fun way to
+          spend some time with friends. The boardwalk which is about 3 miles is
+          a delightful experience as well!
         </p>
 
-        <h3>San Juan Island</h3>
-        <p>
-          The San Juan Islands are choc full of nature-y activities. Whale
-          watching is a must, and kayaking, boating, and hiking are all very
-          popular on the islands. Friday Harbor is a picturesque small harbor
-          town with dozens of shops and restaurants. Some of our favorites are
-          Friday Harbor House Restaurant (if you're feeling fancy, and a great
-          brunch), Duck Soup Inn for dinner, Downriggers for a good view and big
-          deck, Madrona Bar and Grill (a good spot near Roche Harbor to see that
-          part of the island), and of course San Juan Island Brewery for the
-          best craft beer on the islands.
-        </p>
-
-        <p>
-          For activities, we would highly recommend checking out Lime Kiln State
-          Park and Deadman's Bay for an approachable and stunning nature park
-          with some of the best views of the islands and a lovely lighthouse.
-          Hiking trails from 0.5-5ish miles. Rent a boat or kayak from Crystal
-          Seas Kayak Rentals or Friday Harbor Boat Rental. If you don't have a
-          car and just want to explore the town, there are lots of cute artisan
-          shops right along the water.
-        </p>
+        <h3>Los Angeles</h3>
+        <p>I legit know nothing about L.A. Womp!</p>
       </Section>
 
       <SectionDivider isTop />

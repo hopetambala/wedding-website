@@ -39,16 +39,16 @@
 }
 
 @media only screen and (max-width: 900px) {
-    * {
-      text-align: center;
-    }
+  * {
+    text-align: center;
+  }
 
-    .landingText h1 {
-      font-size: calc(var(--font-size-h1));
-      text-align: left;
-    }
+  .landingText h1 {
+    font-size: calc(var(--font-size-h1));
+    text-align: left;
+  }
 
-    img {
-      margin: auto;
-    }
+  img {
+    margin: auto;
+  }
 }
