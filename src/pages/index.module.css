@@ -24,14 +24,13 @@
   right: var(--spacer-xl);
 }
 
-.welcome p {
+em,
+p {
   margin-bottom: var(--spacer-m);
 }
-.home p {
-  margin-bottom: var(--spacer-m);
-}
+
 .details p {
-  margin-bottom: 0;
+  margin-bottom: var(--spacer-s);
 }
 
 .gettinghere img {

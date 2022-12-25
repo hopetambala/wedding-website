@@ -4,15 +4,16 @@ import * as styles from "./image.module.css";
 
 export const Image = ({ source, alt, size }) => {
   const classNames = [styles.container];
-  if (size) classNames.push(styles[size]);
+  const classNameImg = [];
+  if (size) classNameImg.push(styles[size]);
   return (
     <div className={classNames.join(" ")}>
-      <img src={source} alt={alt} />
+      <img className={classNameImg.join(" ")} src={source} alt={alt} />
     </div>
   );
 };
 
 Image.propTypes = {
   alt: PropTypes.string,
-  size: PropTypes.oneOf(["s", "m", "l", "xl"]),
+  size: PropTypes.oneOf(["s", "m", "ml", "l", "xl"]),
 };

@@ -58,43 +58,31 @@ export default function Home() {
 
       <Section title="Details" isAltBG className={styles.details}>
         <Grid position="center">
-          {/* <GridItem>
-            <Image alt="Bonfire Pic" source={bonfire} size="m" />
-            <h3>Friday, August 12, 2023</h3>
-            <strong>Little Beach Hang</strong>
-            <p>7:00 pm @ Beach</p>
-            <p>
-              <em>Address</em>
-            </p>
-            <p>Join us for a beach hang</p>
-            <em>Attire: Casual</em>
-          </GridItem> */}
-
           <GridItem>
-            <Image alt="Wedding Couple" source={wedding} size="m" />
+            <Image alt="Wedding Couple" source={wedding} size="ml" />
             <h3>Saturday, August 12, 2023</h3>
             <strong>Ceremony</strong>
-            <p>5:00 pm @ Corona del Mar Community Church</p>
+            <p>4:30 pm @ Corona del Mar Community Church</p>
+            <p>611 Heliotrope Ave, Corona Del Mar, CA 92625</p>
             <p>
-              <em>611 Heliotrope Ave, Corona Del Mar, CA 92625</em>
+              We are honored to have friends and family witness our exchange of
+              vows as we officially become husband and wife!
             </p>
-            <p>
-              Join us on Sunday for a buffet brunch in the barn before everyone
-              goes their own way.
-            </p>
-            <em>Attire: Dressy</em>
+            <em>Attire: Cocktail</em>
           </GridItem>
 
           <GridItem>
-            <Image alt="Reception Dancing" source={dancing} size="m" />
+            <Image alt="Reception Dancing" source={dancing} size="ml" />
             <h3>Saturday, August 12, 2023</h3>
             <strong>Reception!</strong>
             <p>6:00pm @ Orange County Museum of Art</p>
+            <p>3333 Avenue of the Arts, Costa Mesa, CA 92626</p>
             <p>
-              <em>3333 Avenue of the Arts, Costa Mesa, CA 92626</em>
+              Join us for dinner, drinks, and dancing among the art galleries of
+              OCMA! Our reception will be both indoors and outdoors, so please
+              dress accordingly.
             </p>
-            <p>DESCRIPTION DESCRIPTION DESCRIPTION</p>
-            <em>Attire: Dressy (Get ready to dance!)</em>
+            <em>Attire: Cocktail (Get ready to dance!)</em>
           </GridItem>
         </Grid>
       </Section>
@@ -231,11 +219,13 @@ export default function Home() {
           <GridItem>
             <h3>As told by him...</h3>
             <p>
-              Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+              Ipsum
             </p>
             <h3>As told by her...</h3>
             <p>
-              Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+              Ipsum
             </p>
           </GridItem>
           <GridItem>

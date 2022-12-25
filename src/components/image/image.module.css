@@ -6,6 +6,10 @@
   height: 100px;
 }
 
+.ml {
+  height: 150px;
+}
+
 .l {
   height: 200px;
 }
@@ -15,8 +19,6 @@
 }
 
 .container img {
-  height: 100%;
-  width: auto;
   object-fit: contain;
   border-radius: var(--border-radius-l);
 }
