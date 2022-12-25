@@ -17,5 +17,6 @@
 .container img {
   height: 100%;
   width: auto;
+  object-fit: contain;
   border-radius: var(--border-radius-l);
 }
