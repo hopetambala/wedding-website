@@ -9,21 +9,21 @@ import { Image } from "../components/image/image";
 import bonfire from "../assets/icons/bon-fire.png";
 import wedding from "../assets/icons/wedding-couple.png";
 import dancing from "../assets/icons/dancing.png";
-import lovestory from "../assets/photos/love-story.png";
+// import lovestory from "../assets/photos/love-story.png";
 
 import * as styles from "./index.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.home}>
+    <div>
       <Section title="landing" isNoTitle className={styles.landing}>
         <div className={styles.landingText}>
           <h1>Hope</h1>
           <h1>& Carly</h1>
-          <h2>RSVP</h2>
+          {/* <h2>RSVP</h2> */}
         </div>
       </Section>
-      <Section title="Welcome" className={styles.welcome}>
+      <Section title="Welcome">
         <Grid>
           <GridItem>
             <p>Excited for some beach vibes?</p>
@@ -212,9 +212,9 @@ export default function Home() {
         <p>I legit know nothing about L.A. Womp!</p>
       </Section>
 
-      <SectionDivider isTop />
+      {/* <SectionDivider isTop /> */}
 
-      <Section title="Love Story">
+      {/* <Section title="Love Story">
         <Grid>
           <GridItem>
             <h3>As told by him...</h3>
@@ -232,19 +232,19 @@ export default function Home() {
             <Image alt="Love" source={lovestory} borderRadius="" />
           </GridItem>
         </Grid>
-      </Section>
+      </Section> */}
 
-      <Section title="Wedding Party">
+      {/* <Section title="Wedding Party">
         <p>Zzip zip zipz izp</p>
-      </Section>
+      </Section> */}
 
-      <Section title="Fun Little Game!">
+      {/* <Section title="Fun Little Game!">
         <p>Zzip zip zipz izp</p>
-      </Section>
+      </Section> */}
 
-      <SectionDivider />
+      <SectionDivider isTop/>
 
-      <Section title="Registry" isAltBG>
+      <Section title="Registry" >
         <a
           href="https://withjoy.com/hope-and-carly/registry"
           target="_blank"
