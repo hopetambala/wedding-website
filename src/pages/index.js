@@ -12,6 +12,7 @@ import beach from "../assets/photos/things-to-do/beach.gif";
 import uber from "../assets/photos/things-to-do/uber.gif";
 import flying from "../assets/photos/things-to-do/flying.gif";
 import traffic from "../assets/photos/things-to-do/traffic.gif";
+import adventure from "../assets/photos/things-to-do/adventure.gif";
 
 import * as styles from "./index.module.css";
 
@@ -232,6 +233,7 @@ export default function Home() {
         <h3>Check out the beach!</h3>
         <Grid>
           <GridItem>
+            <h4>Beaches baby</h4>
             <p>
               Orange County is home to some of California’s most beautiful
               beaches. Although you really can’t go wrong, we recommend Newport
@@ -250,13 +252,35 @@ export default function Home() {
             <Image alt="Bonfire Pic" source={beach} size="xl" isCentered />
           </GridItem>
         </Grid>
+        <h3>Looking for some adventure?</h3>
+        <Grid>
+          <GridItem>
+            <Image alt="Hiking Pic" source={adventure} size="xl" />
+          </GridItem>
+          <GridItem>
+            <h4>El Moro Canyon Loop</h4>
+            <p>
+              Hike the El Moro Canyon Loop for spectacular views of the
+              coastline. Located inside Crystal Cove State Park, El Moro has
+              several trails ranging from 3 to 9 miles, which take you through
+              the canyon with views of the ocean.
+            </p>
+            <h4>Catalina Island</h4>
+            <p>
+              For a real adventure, take the Catalina Flyer, a 75-minute ferry
+              ride, from Newport Beach to Catalina Island. Catalina Island is
+              known for its wildlife, beaches, and hiking. Make it a day trip,
+              or you can camp or stay in a hotel for an overnight visit.
+            </p>
+          </GridItem>
+        </Grid>
         <h3>Los Angeles</h3>
         <Grid>
           <GridItem>
-            <Image alt="Traffic Pic" source={traffic} size="xl" />
+            <p>We legit know nothing about L.A. Womp!</p>
           </GridItem>
           <GridItem>
-            <p>We legit know nothing about L.A. Womp!</p>
+            <Image alt="Traffic Pic" source={traffic} size="xl" isCentered />
           </GridItem>
         </Grid>
       </Section>
@@ -302,6 +326,7 @@ export default function Home() {
           Registry
         </a>
       </Section>
+      <Section title=""></Section>
     </div>
   );
 }
