@@ -319,7 +319,7 @@ export default function Home() {
 
       <Section title="Registry">
         <a
-          href="https://withjoy.com/hope-and-carly/registry"
+          href="https://registry.theknot.com/--august-2023-ny/57706136"
           target="_blank"
           rel="noreferrer"
         >
