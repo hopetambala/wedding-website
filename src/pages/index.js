@@ -6,15 +6,12 @@ import { Grid } from "../components/grid/grid";
 import { GridItem } from "../components/grid/grid-item/grid-item";
 import { Image } from "../components/image/image";
 
-import bonfire from "../assets/icons/bon-fire.png";
 import wedding from "../assets/icons/wedding-couple.png";
 import dancing from "../assets/icons/dancing.png";
 import beach from "../assets/photos/things-to-do/beach.gif";
 import uber from "../assets/photos/things-to-do/uber.gif";
 import flying from "../assets/photos/things-to-do/flying.gif";
 import traffic from "../assets/photos/things-to-do/traffic.gif";
-
-// import lovestory from "../assets/photos/love-story.png";
 
 import * as styles from "./index.module.css";
 
@@ -61,7 +58,7 @@ export default function Home() {
               overflow="hidden"
               background="transparent"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-              src="https://embed.music.apple.com/us/playlist/future-funk/pl.b218d054b8294ba98c637326cefe7f0a"
+              src="https://embed.music.apple.com/us/playlist/love-picks/pl.u-RRbV08VCxZEbdK"
             ></iframe>
           </GridItem>
         </Grid>
@@ -169,6 +166,7 @@ export default function Home() {
       </Section>
 
       <Section title="Lodging">
+        <h3>Hotels</h3>
         <p>
           Here are some options of places to stay nearby. We recommend booking
           early - the hotels will be very busy in August and accomodations can
@@ -180,6 +178,7 @@ export default function Home() {
           Both are within walking distance from OCMA, the instructions for
           booking each are in the description.
         </p>
+
         <Grid>
           <GridItem>
             <div>
@@ -189,7 +188,7 @@ export default function Home() {
               </p>
               <p>(714) 957-1100</p>
               <a
-                href="https://www.marriott.com/en-us/hotels/snawi-the-westin-south-coast-plaza-costa-mesa/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+                href="https://www.marriott.com/en-us/hotels/snast-costa-mesa-marriott/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -215,6 +214,16 @@ export default function Home() {
             </div>
           </GridItem>
         </Grid>
+        <h3>Airbnbs</h3>
+        <p>
+          Airbnbs are a great option, especially for those interested in staying
+          on or close to the beach. The most convenient locations for our
+          ceremony/reception are the following: Newport Beach, Corona del Mar,
+          Costa Mesa, and Irvine. (Please note that Orange County is comprised
+          of many small towns, so pay attention to the distance to our ceremony
+          and reception locations, rather than the name of the city, when
+          booking an Airbnb.)
+        </p>
       </Section>
 
       <SectionDivider />
@@ -229,7 +238,7 @@ export default function Home() {
               Beach Municipal Beach, Aliso Beach, Crystal Cove State Park, and
               Huntington City Beach.
             </p>
-                    <h4>Balboa Island</h4>
+            <h4>Balboa Island</h4>
             <p>
               Drive or take the ferry to Balboa Island for a classic boardwalk
               experience, where you can rent bikes and ride the ferris wheel in
@@ -247,7 +256,7 @@ export default function Home() {
             <Image alt="Traffic Pic" source={traffic} size="xl" />
           </GridItem>
           <GridItem>
-            <p>I legit know nothing about L.A. Womp!</p>
+            <p>We legit know nothing about L.A. Womp!</p>
           </GridItem>
         </Grid>
       </Section>
