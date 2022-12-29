@@ -22,3 +22,7 @@
   object-fit: contain;
   border-radius: var(--border-radius-l);
 }
+
+.centered {
+  margin: auto;
+}
