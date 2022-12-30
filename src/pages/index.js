@@ -8,13 +8,39 @@ import { Image } from "../components/image/image";
 
 import wedding from "../assets/icons/wedding-couple.png";
 import dancing from "../assets/icons/dancing.png";
+// import lovestory from "../assets/photos/love-story.png";
 import beach from "../assets/photos/things-to-do/beach.gif";
 import uber from "../assets/photos/things-to-do/uber.gif";
 import flying from "../assets/photos/things-to-do/flying.gif";
 import traffic from "../assets/photos/things-to-do/traffic.gif";
 import adventure from "../assets/photos/things-to-do/adventure.gif";
+import taco from "../assets/photos/things-to-do/taco.gif";
+
 
 import * as styles from "./index.module.css";
+// import { Carousel } from "../components/carousel/carousel";
+
+// const items = [
+//   <div>
+//     For me, Hope’s and my love story started months before we actually met when
+//     Peace Corps headquarters ignored my ranked country preferences for service
+//     and decided to send me to the Dominican Republic, which was nowhere on my
+//     application. By the time I got there, Hope had already been a Peace Corps
+//     Volunteer for a year, and throughout training I just kept hearing stories
+//     about this larger-than-life guy named Hope.{" "}
+//   </div>,
+//   <div>
+//     When I finally met him, I confirmed the rumors were true: he was unlike
+//     anyone I had ever met before, and in the best way! One night, after coming
+//     back to the Peace Corps hostel after a volunteer Thanksgiving celebration, I
+//     (as a Christmas fanatic) followed the sound of Christmas music to the hostel
+//     lobby, where Hope was sitting alone curating the perfect Christmas playlist.
+//     We stayed up until 4am debating the greatest Christmas hits, discussing
+//     Zingerman’s and Ann Arbor, and ??? As our host communities were two long bus
+//     rides apart, we fell in love over hours and hours of flip phone
+//     conversations, never running out of things to talk about.{" "}
+//   </div>,
+// ];
 
 export default function Home() {
   return (
@@ -34,7 +60,8 @@ export default function Home() {
               Welcome to our wedding website! We&rsquo;ve created this website
               (from scratch!) to share everything you need to know leading up to
               our wedding day. Please continue to check our website for the most
-              up-to-date information.
+              up-to-date information. Enjoy some of our favorite music we listen
+              to as a couple in the meantime 😊
             </p>
             <p>
               Thank you for your love, encouragement, and support. We
@@ -145,7 +172,7 @@ export default function Home() {
             </p>
           </GridItem>
           <GridItem>
-            <Image alt="Bonfire Pic" source={flying} size="xl" isCentered />
+            <Image alt="Airplane Pic" source={flying} size="xl" isCentered />
           </GridItem>
         </Grid>
         <h3>Getting around while you're here</h3>
@@ -247,6 +274,13 @@ export default function Home() {
               the Balboa Fun Zone, and be sure to try a frozen banana (”There’s
               always money in the banana stand!”).
             </p>
+            <h4>Laguna Beach</h4>
+            <p>
+              Home to 100+ art galleries, Laguna Beach is a beloved, local “art
+              colony.” Take a stroll through downtown Laguna Beach and check out
+              the independent shops, restaurants, and art galleries that dot the
+              coastline.
+            </p>
           </GridItem>
           <GridItem>
             <Image alt="Bonfire Pic" source={beach} size="xl" isCentered />
@@ -274,35 +308,75 @@ export default function Home() {
             </p>
           </GridItem>
         </Grid>
+        <h3>Anyone say grub? 🍖 🍗 🍔 🍟 🍕 🥐 🥖 🫓 🥨</h3>
+        <Grid>
+          <GridItem>
+            <p>
+              We&rsquo;re big fans of some of the food around the area! While in
+              town, enjoy Playa Mesa, which has some bomb Mexican food. Try
+              anything on the menu with Birria; you won&rsquo;t regret it
+              (unless you&rsquo;re vegetarian). Tacos Manuel is pretty delicious
+              as well. In-and-out continues to divide popular opinion as the
+              best fast-food burger to exist (apparently). You could try their
+              burger &ldquo;animal style&rdquo; and let us know your thoughts!
+            </p>
+
+            <p>
+              If you&rsquo;re itching for sweets, we suggest a doughnut from
+              Sidecar Doughnuts. One of us loves the CHOC-A-LOT, and the other
+              loves the MAPLE BACON.
+            </p>
+          </GridItem>
+
+          <GridItem>
+            <Image alt="Taco Pic" source={taco} size="xl" isCentered />
+          </GridItem>
+        </Grid>
         <h3>Los Angeles</h3>
         <Grid>
           <GridItem>
-            <p>We legit know nothing about L.A. Womp!</p>
+            <Image alt="Traffic Pic" source={traffic} size="xl" />
           </GridItem>
           <GridItem>
-            <Image alt="Traffic Pic" source={traffic} size="xl" isCentered />
+            <p>We legit know nothing about L.A. Womp!</p>
+            <p>
+              (kidding...) While we aren't LA experts, we're happy to give a few
+              recs based on our limited experience! Los Angeles is about an hour
+              away from Orange County (if you’re lucky with traffic). It’s home
+              to some amazing museums, including The Getty, The Broad, and
+              Griffith Observatory. Grab a bite to eat in Little Tokyo or
+              Koreatown. Venice Beach and Santa Monica are oceanside
+              neighborhoods with a lot of character and dozens of restaurants
+              and shops. And, of course, you can enjoy the glitz and glamor of
+              Hollywood with a backlot studio tour, the Walk of Fame, and the
+              Chinese Theatre!
+            </p>
           </GridItem>
+          
         </Grid>
       </Section>
 
-      {/* <SectionDivider isTop /> */}
+      <SectionDivider isTop />
 
       {/* <Section title="Love Story">
+        <h3>As told by him...</h3>
+
         <Grid>
           <GridItem>
-            <h3>As told by him...</h3>
-            <p>
-              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-              Ipsum
-            </p>
-            <h3>As told by her...</h3>
-            <p>
-              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-              Ipsum
-            </p>
+            <Carousel items={items} />
           </GridItem>
           <GridItem>
-            <Image alt="Love" source={lovestory} borderRadius="" />
+            <Image alt="Love" source={lovestory} isCentered />
+          </GridItem>
+        </Grid>
+        <h3>As told by her...</h3>
+
+        <Grid>
+          <GridItem>
+            <Carousel items={items} />
+          </GridItem>
+          <GridItem>
+            <Image alt="Love" source={lovestory} isCentered />
           </GridItem>
         </Grid>
       </Section> */}
@@ -315,9 +389,13 @@ export default function Home() {
         <p>Zzip zip zipz izp</p>
       </Section> */}
 
-      <SectionDivider isTop />
-
       <Section title="Registry">
+        <p>
+          Your presence at our wedding is the greatest gift we could ask for! If
+          you do choose to purchase a gift, we’ve included our registry link
+          below. Thank you in advance, and we can’t wait to celebrate with you
+          soon!
+        </p>
         <a
           href="https://registry.theknot.com/--august-2023-ny/57706136"
           target="_blank"
