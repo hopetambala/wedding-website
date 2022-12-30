@@ -129,7 +129,7 @@ export default function Home() {
 
       <Section title="Getting Here">
         <p>
-          Ready for some beach vibes? Orange County, California is home to some
+          Orange County, California is home to some
           of California’s most beautiful beaches, and we hope that you will take
           some time to explore a place that holds great meaning to both of us!
         </p>
@@ -201,8 +201,8 @@ export default function Home() {
           book up months in advance.
         </p>
         <p>
-          The first options (Costa Messa Mariott) has a room block for our
-          wedding and the second option (Avenue of Arts) has a 15% discount.
+          The first option (Costa Mesa Mariott) has a room block for our
+          wedding and the second option (Avenue of Arts) has a 15% off discount.
           Both are within walking distance from OCMA, the instructions for
           booking each are in the description.
         </p>
@@ -236,7 +236,7 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Website link link for a 15% off Standard and Deluxe guest room
+                Website link for a 15% off Standard and Deluxe guest room
                 rates and free parking per night
               </a>
             </div>
@@ -260,7 +260,7 @@ export default function Home() {
         <h3>Check out the beach!</h3>
         <Grid>
           <GridItem>
-            <h4>Beaches baby</h4>
+            <h4>Beach bod ready?</h4>
             <p>
               Orange County is home to some of California’s most beautiful
               beaches. Although you really can’t go wrong, we recommend Newport
@@ -316,7 +316,7 @@ export default function Home() {
               town, enjoy Playa Mesa, which has some bomb Mexican food. Try
               anything on the menu with Birria; you won&rsquo;t regret it
               (unless you&rsquo;re vegetarian). Tacos Manuel is pretty delicious
-              as well. In-and-out continues to divide popular opinion as the
+              as well. In-N-Out continues to divide popular opinion as the
               best fast-food burger to exist (apparently). You could try their
               burger &ldquo;animal style&rdquo; and let us know your thoughts!
             </p>
