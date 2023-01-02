@@ -12,14 +12,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "G-8LKGJFW4N8",
-        ],
+        trackingIds: ["G-8LKGJFW4N8"],
         pluginConfig: {
-          head: false,
+          head: true,
           respectDNT: true,
           exclude: ["/preview/**", "/do-not-track/me/too/"],
-          delayOnRouteUpdate: 0,
         },
       },
     },

@@ -16,7 +16,6 @@ import traffic from "../assets/photos/things-to-do/traffic.gif";
 import adventure from "../assets/photos/things-to-do/adventure.gif";
 import taco from "../assets/photos/things-to-do/taco.gif";
 
-
 import * as styles from "./index.module.css";
 // import { Carousel } from "../components/carousel/carousel";
 
@@ -129,9 +128,9 @@ export default function Home() {
 
       <Section title="Getting Here">
         <p>
-          Orange County, California is home to some
-          of California’s most beautiful beaches, and we hope that you will take
-          some time to explore a place that holds great meaning to both of us!
+          Orange County, California is home to some of California’s most
+          beautiful beaches, and we hope that you will take some time to explore
+          a place that holds great meaning to both of us!
         </p>
         <h3>Flying</h3>
         <Grid>
@@ -201,10 +200,10 @@ export default function Home() {
           book up months in advance.
         </p>
         <p>
-          The first option (Costa Mesa Mariott) has a room block for our
-          wedding and the second option (Avenue of Arts) has a 15% off discount.
-          Both are within walking distance from OCMA, the instructions for
-          booking each are in the description.
+          The first option (Costa Mesa Mariott) has a room block for our wedding
+          and the second option (Avenue of Arts) has a 15% off discount. Both
+          are within walking distance from OCMA, the instructions for booking
+          each are in the description.
         </p>
 
         <Grid>
@@ -236,8 +235,8 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Website link for a 15% off Standard and Deluxe guest room
-                rates and free parking per night
+                Website link for a 15% off Standard and Deluxe guest room rates
+                and free parking per night
               </a>
             </div>
           </GridItem>
@@ -316,9 +315,9 @@ export default function Home() {
               town, enjoy Playa Mesa, which has some bomb Mexican food. Try
               anything on the menu with Birria; you won&rsquo;t regret it
               (unless you&rsquo;re vegetarian). Tacos Manuel is pretty delicious
-              as well. In-N-Out continues to divide popular opinion as the
-              best fast-food burger to exist (apparently). You could try their
-              burger &ldquo;animal style&rdquo; and let us know your thoughts!
+              as well. In-N-Out continues to divide popular opinion as the best
+              fast-food burger to exist (apparently). You could try their burger
+              &ldquo;animal style&rdquo; and let us know your thoughts!
             </p>
 
             <p>
@@ -352,7 +351,6 @@ export default function Home() {
               Chinese Theatre!
             </p>
           </GridItem>
-          
         </Grid>
       </Section>
 
