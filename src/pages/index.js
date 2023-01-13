@@ -261,8 +261,7 @@ export default function Home() {
           <GridItem>
             <h4>Beach bod ready?</h4>
             <p>
-              Orange County is home to some of California’s most beautiful
-              beaches. Although you really can’t go wrong, we recommend Newport
+              Although you really can’t go wrong with any of Orange County's beaches, we recommend Newport
               Beach Municipal Beach, Aliso Beach, Crystal Cove State Park, and
               Huntington City Beach.
             </p>
