@@ -215,7 +215,7 @@ export default function Home() {
               </p>
               <p>(714) 957-1100</p>
               <a
-                href="https://www.marriott.com/en-us/hotels/snast-costa-mesa-marriott/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+                href="https://www.marriott.com/events/start.mi?id=1673297268997&key=GRP"
                 target="_blank"
                 rel="noreferrer"
               >
