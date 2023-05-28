@@ -1,5 +1,5 @@
 import "../css/_main.css";
-import React from "react";
+import React, { useState } from "react";
 import { Section } from "../components/section/section";
 import { SectionDivider } from "../components/section/section-divider/section-divider";
 import { Grid } from "../components/grid/grid";
@@ -17,34 +17,15 @@ import adventure from "../assets/photos/things-to-do/adventure.gif";
 import taco from "../assets/photos/things-to-do/taco.gif";
 
 import * as styles from "./index.module.css";
-// import { Carousel } from "../components/carousel/carousel";
-
-// const items = [
-//   <div>
-//     For me, Hope’s and my love story started months before we actually met when
-//     Peace Corps headquarters ignored my ranked country preferences for service
-//     and decided to send me to the Dominican Republic, which was nowhere on my
-//     application. By the time I got there, Hope had already been a Peace Corps
-//     Volunteer for a year, and throughout training I just kept hearing stories
-//     about this larger-than-life guy named Hope.{" "}
-//   </div>,
-//   <div>
-//     When I finally met him, I confirmed the rumors were true: he was unlike
-//     anyone I had ever met before, and in the best way! One night, after coming
-//     back to the Peace Corps hostel after a volunteer Thanksgiving celebration, I
-//     (as a Christmas fanatic) followed the sound of Christmas music to the hostel
-//     lobby, where Hope was sitting alone curating the perfect Christmas playlist.
-//     We stayed up until 4am debating the greatest Christmas hits, discussing
-//     Zingerman’s and Ann Arbor, and ??? As our host communities were two long bus
-//     rides apart, we fell in love over hours and hours of flip phone
-//     conversations, never running out of things to talk about.{" "}
-//   </div>,
-// ];
+import { Menu } from "../components/navigation/menu/menu";
 
 export default function Home() {
+  const [open, setOpen] = useState(false);
+  const toggleMenu = () => setOpen(!open);
+
   return (
     <div>
-      <Section title="landing" isNoTitle className={styles.landing}>
+      <Section title="Landing" isNoTitle className={styles.landing}>
         <div className={styles.landingText}>
           <h1>Hope</h1>
           <h1>& Carly</h1>
@@ -485,6 +466,13 @@ export default function Home() {
         </ol>
       </Section>
       <Section isAltBG title=""></Section>
+        <Menu open={open} setOpen={toggleMenu} links={[
+  { href: "#details", text: "Details" },
+  { href: "#gettinghere", text: "Getting Here" },
+  { href: "#lodging", text: "Lodging" },
+  { href: "#registry", text: "Registry" },
+  { href: "#faqs", text: "Frequently Asked Questions" }
+]} />
     </div>
   );
 }
