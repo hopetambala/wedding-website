@@ -42,8 +42,21 @@ p {
     text-align: center;
   }
 
+  .landingText{
+    padding-top: var(--spacer-xxl);
+  }
+
   .landingText h1 {
     font-size: calc(var(--font-size-h1));
+    text-align: left;
+  }
+
+  .landingText h2 {
+    font-size: calc(var(--font-size-h2));
+    text-align: left;
+  }
+
+  .faqs ol > *{
     text-align: left;
   }
 

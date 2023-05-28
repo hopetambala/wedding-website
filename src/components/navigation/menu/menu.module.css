@@ -11,10 +11,13 @@
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
+  border-top-right-radius: var(--border-radius-l);
+  border-bottom-right-radius: var(--border-radius-l);
 }
 
 .menu a {
-  font-size: 2rem;
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
   text-transform: uppercase;
   padding: 2rem 0;
   font-weight: bold;
@@ -22,19 +25,14 @@
   color: #0D0C1D;
   text-decoration: none;
   transition: color 0.3s linear;
-
-  @media (max-width: 576px) {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  &:hover {
-    color: #343078;
-  }
 }
 
 @media (max-width: 576px) {
   .menu {
     width: 100%;
+  }
+
+  .menu a {
+    text-align: center;
   }
 }

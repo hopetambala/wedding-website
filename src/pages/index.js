@@ -5,10 +5,12 @@ import { SectionDivider } from "../components/section/section-divider/section-di
 import { Grid } from "../components/grid/grid";
 import { GridItem } from "../components/grid/grid-item/grid-item";
 import { Image } from "../components/image/image";
+import { Carousel } from "../components/carousel/carousel";
 
 import wedding from "../assets/icons/wedding-couple.png";
 import dancing from "../assets/icons/dancing.png";
-// import lovestory from "../assets/photos/love-story.png";
+import lovestory from "../assets/photos/love-story.png";
+import lovestoryChristmas from "../assets/photos/love-story-christmas.jpg";
 import beach from "../assets/photos/things-to-do/beach.gif";
 import uber from "../assets/photos/things-to-do/uber.gif";
 import flying from "../assets/photos/things-to-do/flying.gif";
@@ -18,6 +20,7 @@ import taco from "../assets/photos/things-to-do/taco.gif";
 
 import * as styles from "./index.module.css";
 import { Menu } from "../components/navigation/menu/menu";
+import { carlyStory, hopeStory } from "../data/lovestory";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
@@ -344,28 +347,26 @@ export default function Home() {
 
       <SectionDivider isTop />
 
-      {/* <Section title="Love Story">
-        <h3>As told by him...</h3>
-
-        <Grid>
-          <GridItem>
-            <Carousel items={items} />
-          </GridItem>
-          <GridItem>
-            <Image alt="Love" source={lovestory} isCentered />
-          </GridItem>
-        </Grid>
+      <Section title="Love Story">
         <h3>As told by her...</h3>
-
         <Grid>
           <GridItem>
-            <Carousel items={items} />
+            <Carousel items={carlyStory} />
           </GridItem>
           <GridItem>
             <Image alt="Love" source={lovestory} isCentered />
           </GridItem>
         </Grid>
-      </Section> */}
+        <h3>As told by him...</h3>
+        <Grid>
+          <GridItem>
+            <Image alt="Love" source={lovestoryChristmas} isCentered />
+          </GridItem>
+          <GridItem>
+            <Carousel items={hopeStory} />
+          </GridItem>
+        </Grid>
+      </Section>
 
       {/* <Section title="Wedding Party">
         <p>Zzip zip zipz izp</p>
@@ -391,7 +392,7 @@ export default function Home() {
         </a>
       </Section>
       <SectionDivider />
-      <Section isAltBG title="FAQs">
+      <Section isAltBG title="FAQs" className={styles.faqs}>
         <ol>
           <li>
             <strong>Are kids invited?</strong>
@@ -466,13 +467,17 @@ export default function Home() {
         </ol>
       </Section>
       <Section isAltBG title=""></Section>
-        <Menu open={open} setOpen={toggleMenu} links={[
-  { href: "#details", text: "Details" },
-  { href: "#gettinghere", text: "Getting Here" },
-  { href: "#lodging", text: "Lodging" },
-  { href: "#registry", text: "Registry" },
-  { href: "#faqs", text: "Frequently Asked Questions" }
-]} />
+      <Menu
+        open={open}
+        setOpen={toggleMenu}
+        links={[
+          { href: "#details", text: "Details" },
+          { href: "#gettinghere", text: "Getting Here" },
+          { href: "#lodging", text: "Lodging" },
+          { href: "#registry", text: "Registry" },
+          { href: "#faqs", text: "Frequently Asked Questions" },
+        ]}
+      />
     </div>
   );
 }
