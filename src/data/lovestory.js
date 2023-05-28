@@ -45,7 +45,7 @@ export const carlyStory = [
 
 export const hopeStory = [
   <div>
-    I’ll elaborate on the series of random events that led me to Carly. I remember seeing Carly in 2016 around the time she was swearing in to be an official Peace Corps volunteer. I had been in the country (Dominican Republic) for a year, acting a fool. Most of the current Peace Corps volunteers always come to the capital of the country to watch the 'newbies' take their oaths to become official Peace Corps volunteers. I saw her across the room during some post-swear-in activities and crudely thought, 'Wow, she’s a 10.' I immediately wanted to talk to her.
+    I’ll elaborate on the series of random events that led me to Carly. I remember seeing Carly in 2016 around the time she was swearing in to be an official Peace Corps volunteer. I had been in the country (Dominican Republic) for a year, acting a fool. Most of the current Peace Corps volunteers always come to the capital of the country to watch the 'newbies' take their oaths to become official Peace Corps volunteers. I saw her across the room during some post-swear-in activities and crudely thought, 'Wow, she’s a babe.' I immediately wanted to talk to her.
   </div>,
   <div>
     I didn't though. I even had a friend come up to me at a Peace Corps party we were both at, and she asked, 'Who are you eyeing?' I said, 'That girl right there.' For reference, I was pointing at Carly. My friend offered to talk to Carly and facilitate a chat, but I chickened out and said, 'Naw.'
