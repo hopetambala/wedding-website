@@ -162,7 +162,7 @@
   --color-bg-dark: var(--hex-neutral-200);
 
   /* Text */
-  --color-link: var(--hex-purple-800);
+  --color-link: var(--hex-pink-600);
   --color-link-active: var(--hex-blue-700);
   --color-link-hover: var(--hex-blue-500);
   --color-text: var(--hex-neutral-900);

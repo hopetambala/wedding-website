@@ -48,7 +48,15 @@ export default function Home() {
         <div className={styles.landingText}>
           <h1>Hope</h1>
           <h1>& Carly</h1>
-          {/* <h2>RSVP</h2> */}
+          <h2>
+            <a
+              href="https://registry.theknot.com/--august-2023-ny/57706136"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RSVP
+            </a>
+          </h2>
         </div>
       </Section>
       <Section title="Welcome">
@@ -261,9 +269,9 @@ export default function Home() {
           <GridItem>
             <h4>Beach bod ready?</h4>
             <p>
-              Although you really can’t go wrong with any of Orange County's beaches, we recommend Newport
-              Beach Municipal Beach, Aliso Beach, Crystal Cove State Park, and
-              Huntington City Beach.
+              Although you really can’t go wrong with any of Orange County's
+              beaches, we recommend Newport Beach Municipal Beach, Aliso Beach,
+              Crystal Cove State Park, and Huntington City Beach.
             </p>
             <h4>Balboa Island</h4>
             <p>
@@ -401,7 +409,82 @@ export default function Home() {
           Registry
         </a>
       </Section>
-      <Section title=""></Section>
+      <SectionDivider />
+      <Section isAltBG title="FAQs">
+        <ol>
+          <li>
+            <strong>Are kids invited?</strong>
+            <ol>
+              <li>
+                Outside of immediate family members, we unfortunately cannot
+                accommodate children under age 10. If you will be traveling to
+                Orange County with your little ones and need a childcare
+                recommendation, please let us know! Carly’s family is local to
+                the area and happy to pass along contact info for their go-to
+                sitters.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>Can I bring a date?</strong>
+            <ol>
+              <li>If your invitation says “And Guest,” then yes!</li>
+            </ol>
+          </li>
+          <li>
+            <strong>What is parking like?</strong>
+            <ol>
+              <li>
+                For our ceremony at Community Church Congregational, there is
+                street parking only. Because of the time of our ceremony, we
+                expect there to be limited parking options. Please consider
+                taking an Uber/Lyft, carpooling, and/or arriving early to leave
+                plenty of time to find parking. For our reception, there are
+                several paid parking garages close to the Orange County Museum
+                of Art. More information about parking can be found on OCMA’s
+                website:{" "}
+                <a href="https://ocma.art/visit/directions-parking/">
+                  https://ocma.art/visit/directions-parking/
+                </a>
+                .
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>What is your dress code?</strong>
+            <ol>
+              <li>
+                Our dress code is Cocktail Attire. We suggest suits and ties,
+                midi or cocktail dresses, and dressy pantsuits or separates.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>Will your reception take place indoors or outdoors?</strong>
+            <ol>
+              <li>
+                Our reception will take place both indoors and outdoors.
+                Cocktail hour and dinner will take place on OCMA’s outdoor
+                terrace, and dancing will be inside. California nights can be
+                chilly once the sun sets, and we suggest bringing a sweater or
+                light coat for a temperature dip.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>Can you accommodate my dietary restriction?</strong>
+            <ol>
+              <li>
+                Our caterer will be serving vegetarian, vegan, gluten-free, and
+                kosher options. If you have one of those dietary restrictions,
+                or something else, please note it on your RSVP so we can be sure
+                your needs are met!
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </Section>
+      <Section isAltBG title=""></Section>
     </div>
   );
 }
