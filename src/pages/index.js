@@ -471,9 +471,14 @@ export default function Home() {
         open={open}
         setOpen={toggleMenu}
         links={[
+          {
+            href: "https://registry.theknot.com/--august-2023-ny/57706136",
+            text: "RSVP",
+          },
           { href: "#details", text: "Details" },
           { href: "#gettinghere", text: "Getting Here" },
           { href: "#lodging", text: "Lodging" },
+          { href: "#thingstodo", text: "Things To Do" },
           { href: "#registry", text: "Registry" },
           { href: "#faqs", text: "Frequently Asked Questions" },
         ]}
