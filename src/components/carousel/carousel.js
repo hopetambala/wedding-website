@@ -15,7 +15,16 @@ export const Carousel = ({ items }) => {
       pagination={true}
       modules={[Navigation, Pagination]}
     >
-      {items && items.map((item, i) => <SwiperSlide>{item}</SwiperSlide>)}
+      {items &&
+        items.map((item, i) => (
+          <SwiperSlide>
+            {item}
+            <br />
+            <em>
+              <p style={{bottom:0}}>Swipe left on text</p>
+            </em>
+          </SwiperSlide>
+        ))}
     </Swiper>
   );
 };

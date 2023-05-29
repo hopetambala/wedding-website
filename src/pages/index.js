@@ -479,6 +479,7 @@ export default function Home() {
           { href: "#gettinghere", text: "Getting Here" },
           { href: "#lodging", text: "Lodging" },
           { href: "#thingstodo", text: "Things To Do" },
+          { href: "#lovestory", text: "Love Stories" },
           { href: "#registry", text: "Registry" },
           { href: "#faqs", text: "Frequently Asked Questions" },
         ]}
