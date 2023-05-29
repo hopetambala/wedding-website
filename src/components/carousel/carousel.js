@@ -21,7 +21,7 @@ export const Carousel = ({ items }) => {
             {item}
             <br />
             <em>
-              <p style={{bottom:0}}>Swipe left on text</p>
+              <p style={{bottom:0}}>Swipe on text</p>
             </em>
           </SwiperSlide>
         ))}
