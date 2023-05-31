@@ -68,7 +68,7 @@ export default function Home() {
             {/* <p>Don&rsquo;t forget to RSVP!</p> */}
           </GridItem>
           <GridItem>
-            <iframe
+            {/* <iframe
               title="our music playlist"
               allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
               frameborder="0"
@@ -78,6 +78,17 @@ export default function Home() {
               background="transparent"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
               src="https://embed.music.apple.com/us/playlist/love-picks/pl.u-RRbV08VCxZEbdK"
+            ></iframe> */}
+            <iframe
+              title="our music playlist"
+              style={{ borderRadius: 20, background: "transparent" }}
+              frameBorder={"0"}
+              src="https://open.spotify.com/embed/playlist/2joaNZkXiDCjn4KC7rYEOg?utm_source=generator&theme=1"
+              width="100%"
+              height="460"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
             ></iframe>
           </GridItem>
         </Grid>
@@ -91,7 +102,7 @@ export default function Home() {
             <Image alt="Wedding Couple" source={wedding} size="ml" />
             <h3>Saturday, August 12, 2023</h3>
             <strong>Ceremony</strong>
-            <p>4:30 pm @ Corona del Mar Community Church</p>
+            <p>5:00 pm @ Corona del Mar Community Church</p>
             <p>611 Heliotrope Ave, Corona Del Mar, CA 92625</p>
             <p>
               We are honored to have friends and family witness our exchange of
