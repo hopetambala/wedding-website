@@ -13,6 +13,7 @@
   transition: transform 0.3s ease-in-out;
   border-top-right-radius: var(--border-radius-l);
   border-bottom-right-radius: var(--border-radius-l);
+  z-index: var(--z-sidebar);
 }
 
 .menu a {
