@@ -483,7 +483,7 @@ export default function Home() {
         setOpen={toggleMenu}
         links={[
           {
-            href: "https://registry.theknot.com/--august-2023-ny/57706136",
+            href: "https://www.theknot.com/us/hope-tambala-and-carly-pablos-aug-2023/rsvp",
             text: "RSVP",
           },
           { href: "#details", text: "Details" },
@@ -491,7 +491,10 @@ export default function Home() {
           { href: "#lodging", text: "Lodging" },
           { href: "#thingstodo", text: "Things To Do" },
           { href: "#lovestory", text: "Love Stories" },
-          { href: "#registry", text: "Registry" },
+          {
+            href: "https://registry.theknot.com/--august-2023-ny/57706136",
+            text: "Registry",
+          },
           { href: "#faqs", text: "Frequently Asked Questions" },
         ]}
       />
