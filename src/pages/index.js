@@ -34,7 +34,7 @@ export default function Home() {
           <h1>& Carly</h1>
           <h2>
             <a
-              href="https://registry.theknot.com/--august-2023-ny/57706136"
+              href="https://www.theknot.com/us/hope-tambala-and-carly-pablos-aug-2023/rsvp"
               target="_blank"
               rel="noreferrer"
             >
