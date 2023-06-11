@@ -18,3 +18,7 @@
 :global(.swiper-button-next) {
   color: transparent;
 }
+
+:global(.swiper-pagination) {
+  position: relative;
+}

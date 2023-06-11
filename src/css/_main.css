@@ -68,7 +68,6 @@ h3 {
 a {
   color: var(--color-link);
   cursor: pointer;
-  text-decoration: none;
 }
 
 a:hover {

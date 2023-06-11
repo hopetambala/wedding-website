@@ -1,14 +1,16 @@
 import "../css/_main.css";
-import React from "react";
+import React, { useState } from "react";
 import { Section } from "../components/section/section";
 import { SectionDivider } from "../components/section/section-divider/section-divider";
 import { Grid } from "../components/grid/grid";
 import { GridItem } from "../components/grid/grid-item/grid-item";
 import { Image } from "../components/image/image";
+import { Carousel } from "../components/carousel/carousel";
 
 import wedding from "../assets/icons/wedding-couple.png";
 import dancing from "../assets/icons/dancing.png";
-// import lovestory from "../assets/photos/love-story.png";
+import lovestory from "../assets/photos/love-story.png";
+import lovestoryChristmas from "../assets/photos/love-story-christmas.jpg";
 import beach from "../assets/photos/things-to-do/beach.gif";
 import uber from "../assets/photos/things-to-do/uber.gif";
 import flying from "../assets/photos/things-to-do/flying.gif";
@@ -17,38 +19,28 @@ import adventure from "../assets/photos/things-to-do/adventure.gif";
 import taco from "../assets/photos/things-to-do/taco.gif";
 
 import * as styles from "./index.module.css";
-// import { Carousel } from "../components/carousel/carousel";
-
-// const items = [
-//   <div>
-//     For me, Hope’s and my love story started months before we actually met when
-//     Peace Corps headquarters ignored my ranked country preferences for service
-//     and decided to send me to the Dominican Republic, which was nowhere on my
-//     application. By the time I got there, Hope had already been a Peace Corps
-//     Volunteer for a year, and throughout training I just kept hearing stories
-//     about this larger-than-life guy named Hope.{" "}
-//   </div>,
-//   <div>
-//     When I finally met him, I confirmed the rumors were true: he was unlike
-//     anyone I had ever met before, and in the best way! One night, after coming
-//     back to the Peace Corps hostel after a volunteer Thanksgiving celebration, I
-//     (as a Christmas fanatic) followed the sound of Christmas music to the hostel
-//     lobby, where Hope was sitting alone curating the perfect Christmas playlist.
-//     We stayed up until 4am debating the greatest Christmas hits, discussing
-//     Zingerman’s and Ann Arbor, and ??? As our host communities were two long bus
-//     rides apart, we fell in love over hours and hours of flip phone
-//     conversations, never running out of things to talk about.{" "}
-//   </div>,
-// ];
+import { Menu } from "../components/navigation/menu/menu";
+import { carlyStory, hopeStory } from "../data/lovestory";
 
 export default function Home() {
+  const [open, setOpen] = useState(false);
+  const toggleMenu = () => setOpen(!open);
+
   return (
     <div>
-      <Section title="landing" isNoTitle className={styles.landing}>
+      <Section title="Landing" isNoTitle className={styles.landing}>
         <div className={styles.landingText}>
           <h1>Hope</h1>
           <h1>& Carly</h1>
-          {/* <h2>RSVP</h2> */}
+          <h2>
+            <a
+              href="https://www.theknot.com/us/hope-tambala-and-carly-pablos-aug-2023/rsvp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RSVP
+            </a>
+          </h2>
         </div>
       </Section>
       <Section title="Welcome">
@@ -76,7 +68,7 @@ export default function Home() {
             {/* <p>Don&rsquo;t forget to RSVP!</p> */}
           </GridItem>
           <GridItem>
-            <iframe
+            {/* <iframe
               title="our music playlist"
               allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
               frameborder="0"
@@ -86,6 +78,17 @@ export default function Home() {
               background="transparent"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
               src="https://embed.music.apple.com/us/playlist/love-picks/pl.u-RRbV08VCxZEbdK"
+            ></iframe> */}
+            <iframe
+              title="our music playlist"
+              style={{ borderRadius: 20, background: "transparent" }}
+              frameBorder={"0"}
+              src="https://open.spotify.com/embed/playlist/2joaNZkXiDCjn4KC7rYEOg?utm_source=generator&theme=1"
+              width="100%"
+              height="460"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
             ></iframe>
           </GridItem>
         </Grid>
@@ -99,7 +102,7 @@ export default function Home() {
             <Image alt="Wedding Couple" source={wedding} size="ml" />
             <h3>Saturday, August 12, 2023</h3>
             <strong>Ceremony</strong>
-            <p>4:30 pm @ Corona del Mar Community Church</p>
+            <p>5:00 pm @ Corona del Mar Community Church</p>
             <p>611 Heliotrope Ave, Corona Del Mar, CA 92625</p>
             <p>
               We are honored to have friends and family witness our exchange of
@@ -261,9 +264,9 @@ export default function Home() {
           <GridItem>
             <h4>Beach bod ready?</h4>
             <p>
-              Although you really can’t go wrong with any of Orange County's beaches, we recommend Newport
-              Beach Municipal Beach, Aliso Beach, Crystal Cove State Park, and
-              Huntington City Beach.
+              Although you really can’t go wrong with any of Orange County's
+              beaches, we recommend Newport Beach Municipal Beach, Aliso Beach,
+              Crystal Cove State Park, and Huntington City Beach.
             </p>
             <h4>Balboa Island</h4>
             <p>
@@ -355,28 +358,26 @@ export default function Home() {
 
       <SectionDivider isTop />
 
-      {/* <Section title="Love Story">
-        <h3>As told by him...</h3>
-
-        <Grid>
-          <GridItem>
-            <Carousel items={items} />
-          </GridItem>
-          <GridItem>
-            <Image alt="Love" source={lovestory} isCentered />
-          </GridItem>
-        </Grid>
+      <Section title="Love Story">
         <h3>As told by her...</h3>
-
         <Grid>
           <GridItem>
-            <Carousel items={items} />
+            <Carousel items={carlyStory} />
           </GridItem>
           <GridItem>
             <Image alt="Love" source={lovestory} isCentered />
           </GridItem>
         </Grid>
-      </Section> */}
+        <h3>As told by him...</h3>
+        <Grid>
+          <GridItem>
+            <Image alt="Love" source={lovestoryChristmas} isCentered />
+          </GridItem>
+          <GridItem>
+            <Carousel items={hopeStory} />
+          </GridItem>
+        </Grid>
+      </Section>
 
       {/* <Section title="Wedding Party">
         <p>Zzip zip zipz izp</p>
@@ -401,7 +402,102 @@ export default function Home() {
           Registry
         </a>
       </Section>
-      <Section title=""></Section>
+      <SectionDivider />
+      <Section isAltBG title="FAQs" className={styles.faqs}>
+        <ol>
+          <li>
+            <strong>Are kids invited?</strong>
+            <ol>
+              <li>
+                Outside of immediate family members, we unfortunately cannot
+                accommodate children under age 10. If you will be traveling to
+                Orange County with your little ones and need a childcare
+                recommendation, please let us know! Carly’s family is local to
+                the area and happy to pass along contact info for their go-to
+                sitters.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>Can I bring a date?</strong>
+            <ol>
+              <li>If your invitation says “And Guest,” then yes!</li>
+            </ol>
+          </li>
+          <li>
+            <strong>What is parking like?</strong>
+            <ol>
+              <li>
+                For our ceremony at Community Church Congregational, there is
+                street parking only. Because of the time of our ceremony, we
+                expect there to be limited parking options. Please consider
+                taking an Uber/Lyft, carpooling, and/or arriving early to leave
+                plenty of time to find parking. For our reception, there are
+                several paid parking garages close to the Orange County Museum
+                of Art. More information about parking can be found on OCMA’s
+                website:{" "}
+                <a href="https://ocma.art/visit/directions-parking/">
+                  https://ocma.art/visit/directions-parking/
+                </a>
+                .
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>What is your dress code?</strong>
+            <ol>
+              <li>
+                Our dress code is Cocktail Attire. We suggest suits and ties,
+                midi or cocktail dresses, and dressy pantsuits or separates.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>Will your reception take place indoors or outdoors?</strong>
+            <ol>
+              <li>
+                Our reception will take place both indoors and outdoors.
+                Cocktail hour and dinner will take place on OCMA’s outdoor
+                terrace, and dancing will be inside. California nights can be
+                chilly once the sun sets, and we suggest bringing a sweater or
+                light coat for a temperature dip.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <strong>Can you accommodate my dietary restriction?</strong>
+            <ol>
+              <li>
+                Our caterer will be serving vegetarian, vegan, gluten-free, and
+                kosher options. If you have one of those dietary restrictions,
+                or something else, please note it on your RSVP so we can be sure
+                your needs are met!
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </Section>
+      <Section isAltBG title=""></Section>
+      <Menu
+        open={open}
+        setOpen={toggleMenu}
+        links={[
+          {
+            href: "https://www.theknot.com/us/hope-tambala-and-carly-pablos-aug-2023/rsvp",
+            text: "RSVP",
+          },
+          { href: "#details", text: "Details" },
+          { href: "#gettinghere", text: "Getting Here" },
+          { href: "#lodging", text: "Lodging" },
+          { href: "#thingstodo", text: "Things To Do" },
+          { href: "#lovestory", text: "Love Stories" },
+          {
+            href: "https://registry.theknot.com/--august-2023-ny/57706136",
+            text: "Registry",
+          },
+          { href: "#faqs", text: "Frequently Asked Questions" },
+        ]}
+      />
     </div>
   );
 }
