@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "./carousel.module.css";
 
 export const Carousel = ({ items }) => {
-  const [helperText, setHelperText] = useState("Swipe on text to continue");
+  const [helperText, setHelperText] = useState("Swipe left on text to see more");
   return (
     <Swiper
       navigation={true}
@@ -16,7 +16,7 @@ export const Carousel = ({ items }) => {
       pagination={true}
       scrollbar={true}
       modules={[Navigation, Pagination]}
-      onSlideChange={() => setHelperText("Swipe left on text to continue the story...")}
+      onSlideChange={() => setHelperText("Continue swiping on text to continue the story...")}
       onReachEnd={() =>
         setHelperText("End! Swipe back/right if you'd like to read again.")
       }
