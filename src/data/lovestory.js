@@ -35,7 +35,7 @@ export const carlyStory = [
   </div>,
   <div>
     Since picking up our relationship again stateside, we have laughed, loved,
-    and grown together over the past 4.5 years. We have lived together in D.C.
+    and grown together over the past 4.5 years. We have lived in D.C.
     and now Brooklyn, added a dog, Romeo, to our little family, scoured the
     nation for the best fried chicken sandwich (it’s Roaming Rooster!), and
     begun to start our own traditions. We can’t wait to celebrate our love among

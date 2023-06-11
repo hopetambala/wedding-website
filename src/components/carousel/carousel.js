@@ -16,9 +16,9 @@ export const Carousel = ({ items }) => {
       pagination={true}
       scrollbar={true}
       modules={[Navigation, Pagination]}
-      onSlideChange={() => setHelperText("Swipe on text to continue...")}
+      onSlideChange={() => setHelperText("Swipe left on text to continue the story...")}
       onReachEnd={() =>
-        setHelperText("End! Swipe back if you'd like to read again.")
+        setHelperText("End! Swipe back/right if you'd like to read again.")
       }
     >
       {items &&
