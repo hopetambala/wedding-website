@@ -3,21 +3,17 @@
   height: 100%;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background: transparent;
+:global(.swiper-slide) > div {
+  margin: 0 50px;
 }
 
-:global(.swiper-button-prev) {
+/* :global(.swiper-button-prev) {
   color: transparent;
 }
 
 :global(.swiper-button-next) {
   color: transparent;
-}
+} */
 
 :global(.swiper-pagination) {
   position: relative;
