@@ -11,8 +11,8 @@ export const Menu = ({ className, open, setOpen, links }) => {
       <Burger setOpen={setOpen} />
       {open && (
         <nav className={classNames.join(" ")}>
-          {links.map(({ href, text }) => (
-            <a onClick={setOpen} href={href}>
+          {links.map(({ href, text, newTab }) => (
+            <a onClick={setOpen} href={href} target={newTab? "_blank":""} rel={newTab ?"noreferrer":""}>
               {text}
             </a>
           ))}

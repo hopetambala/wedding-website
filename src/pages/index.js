@@ -68,7 +68,7 @@ export default function Home() {
             {/* <p>Don&rsquo;t forget to RSVP!</p> */}
           </GridItem>
           <GridItem>
-            <iframe
+            {/* <iframe
               title="our music playlist"
               allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
               frameborder="0"
@@ -78,8 +78,8 @@ export default function Home() {
               background="transparent"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
               src="https://embed.music.apple.com/us/playlist/love-picks/pl.u-RRbV08VCxZEbdK"
-            ></iframe>
-            {/* <iframe
+            ></iframe> */}
+            <iframe
               title="our music playlist"
               allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
               frameborder="0"
@@ -90,7 +90,7 @@ export default function Home() {
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
               src="https://open.spotify.com/embed/playlist/2joaNZkXiDCjn4KC7rYEOg?utm_source=generator&theme=1"
               style={{ borderRadius: 20, background: "transparent" }} 
-            ></iframe> */}
+            ></iframe>
           </GridItem>
         </Grid>
       </Section>
@@ -486,6 +486,7 @@ export default function Home() {
           {
             href: "https://www.theknot.com/us/hope-tambala-and-carly-pablos-aug-2023/rsvp",
             text: "RSVP",
+            newTab:true
           },
           { href: "#details", text: "Details" },
           { href: "#gettinghere", text: "Getting Here" },
