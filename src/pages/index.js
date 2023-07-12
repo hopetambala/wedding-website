@@ -410,8 +410,8 @@ export default function Home() {
             <strong>Are kids invited?</strong>
             <ol>
               <li>
-                Outside of immediate family members, we unfortunately cannot
-                accommodate children under age 10. If you will be traveling to
+                Outside of family members and a few exceptions, we unfortunately cannot
+                accommodate children. If you will be traveling to
                 Orange County with your little ones and need a childcare
                 recommendation, please let us know! Carly’s family is local to
                 the area and happy to pass along contact info for their go-to
