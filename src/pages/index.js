@@ -388,7 +388,7 @@ export default function Home() {
         <p>Zzip zip zipz izp</p>
       </Section> */}
 
-      <Section title="Registry">
+      {/* <Section title="Registry">
         <p>
           Your presence at our wedding is the greatest gift we could ask for! If
           you do choose to purchase a gift, we’ve included our registry link
@@ -402,7 +402,7 @@ export default function Home() {
         >
           Registry
         </a>
-      </Section>
+      </Section> */}
       <SectionDivider />
       <Section isAltBG title="FAQs" className={styles.faqs}>
         <ol>
@@ -493,10 +493,10 @@ export default function Home() {
           { href: "#lodging", text: "Lodging" },
           { href: "#thingstodo", text: "Things To Do" },
           { href: "#lovestory", text: "Love Stories" },
-          {
-            href: "https://registry.theknot.com/--august-2023-ny/57706136",
-            text: "Registry",
-          },
+          // {
+          //   href: "https://registry.theknot.com/--august-2023-ny/57706136",
+          //   text: "Registry",
+          // },
           { href: "#faqs", text: "Frequently Asked Questions" },
         ]}
       />
